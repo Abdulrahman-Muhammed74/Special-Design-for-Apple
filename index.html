@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Apple Inc.</title>
+  </head>
+  <body>
+    <!-- start Settings box -->
+    <div class="settings-box">
+      <div class="round-settings">
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <div class="settingsContainer">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color=" #2189f3"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#607d8b"></li>
+            <li data-color="#9c27b0"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Navigation Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="reset">Reset Options</button>
+      </div>
+    </div>
+    <!-- end Settings box -->
+    <!-- start bullets-->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".landingPage">
+        <div class="tooltip">Home</div>
+      </div>
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".categories">
+        <div class="tooltip">Categories</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Products</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">History</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Our Features</div>
+      </div>
+    </div>
+    <!-- end bullets-->
+
+    <!-- start landing page -->
+    <div class="landingPage">
+      <div class="overLay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Special Design For Apple</div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a class="active" href="#" data-section=".landingPage"> Home</a>
+              </li>
+              <li><a href="#" data-section=".about-us"> About</a></li>
+              <li><a href="#" data-section=".categories"> Categories</a></li>
+              <li><a href="#" data-section=".gallery"> Products</a></li>
+              <li><a href="#" data-section=".timeline"> History</a></li>
+              <li><a href="#" data-section=".features"> Features</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="intro-text">
+        <h1>We Are <span>Creative </span>Technology Company</h1>
+        <p>
+          Apple Inc. is an American multinational technology company
+          headquartered in Cupertino, California. Apple is the world's largest
+          technology company.
+        </p>
+      </div>
+    </div>
+    <!-- end landing page -->
+    <!--start about us-->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Apple hardware, software, and services work together to give you and
+            your employees the power and flexibility to do whatever needs doing
+            — whether you’re a small business or enterprise
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="images/hero_iphone_14__de41900yuggi_large.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end about us -->
+
+    <!--start categories  -->
+    <div class="categories">
+      <div class="container">
+        <h2>Categories</h2>
+        <h5>Sales Progress</h5>
+        <div class="categories-box">
+          <div class="name">Mac</div>
+          <div class="sales-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="categories-box">
+          <div class="name">Iphone</div>
+          <div class="sales-progress">
+            <span data-progress="95%"></span>
+          </div>
+        </div>
+        <div class="categories-box">
+          <div class="name">Watch</div>
+          <div class="sales-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="categories-box">
+          <div class="name">AirPods</div>
+          <div class="sales-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="categories-box">
+          <div class="name">TV & Home</div>
+          <div class="sales-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="categories-box">
+          <div class="name">iPad</div>
+          <div class="sales-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="categories-box">
+          <div class="name">Accessories</div>
+          <div class="sales-progress">
+            <span data-progress="65%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end categories  -->
+    <!-- start our products-->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="images-box">
+          <img src="images/n1.jpg" alt="Macbook Pro" />
+          <img src="images/n2.jpg" alt="Macbook" />
+          <img src="images/n3.jpg" alt="Iphone 14" />
+          <img src="images/n4.jpg" alt="Iphone & Ipad" />
+          <img src="images/n5.jpg" alt="Apple Watch" />
+          <img src="images/n6.jpg" alt="" />
+          <img src="images/n7.jpg" alt="" />
+          <img src="images/n8.jpg" alt="" />
+          <img src="images/n9.jpg" alt="" />
+          <img src="images/n10.jpg" alt="" />
+          <img src="images/n11.jpg" alt="" />
+          <img src="images/n12.jpeg" alt="" />
+          <img src="images/n13.png" alt="" />
+          <img src="images/n14.jpg" alt="" />
+          <img src="images/n15.jpg" alt="" />
+          <img src="images/n16.jpg" alt="" />
+          <img src="images/n17.png" alt="" />
+          <img src="images/n18.jpg" alt="" />
+          <img src="images/n19.jpg" alt="" />
+          <img src="images/n20.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end our products-->
+
+    <!--start timeLine-->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">April 1, 1976</div>
+          <div class="left">
+            <div class="content">
+              <h3>The Founding of Apple,Inc.</h3>
+              <p>
+                Apple Computer, Inc. was founded on April 1, 1976, by college
+                dropouts Steve Jobs and Steve Wozniak, who brought to the new
+                company a vision of changing the way people viewed computers.
+                Jobs and Wozniak wanted to make computers small enough for
+                people to have them in their homes or offices. Simply put, they
+                wanted a computer that was user-friendly.
+              </p>
+            </div>
+          </div>
+          <div class="clearFloat"></div>
+          <div class="right">
+            <div class="content">
+              <h3>The Founding of Apple,Inc.</h3>
+              <p>
+                Jobs and Wozniak started out building the Apple I in Jobs'
+                garage and sold them without a monitor, keyboard, or casing
+                (which they decided to add on in 1977). The Apple II
+                revolutionized the computer industry with the introduction of
+                the first-ever color graphics. Sales jumped from $7.8 million in
+                1978 to $117 million in 1980, the year Apple went public.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end timeLine-->
+
+    <!-- start features-->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="images/creative.jpg" alt="" />
+          <h4>Creativity</h4>
+          <p>
+            This cultural characteristic pertains to creating new ideas that
+            help improve the technology business and its products. Apple’s
+            management favors creativity among employees’ knowledge, skills, and
+            abilities.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/top-notch.jpg" alt="" />
+          <h4>Top-notch excellence</h4>
+          <p>
+            Apple’s organizational culture comes with a human resource policy of
+            hiring only the best of the best in the labor market. Steve Jobs was
+            known to fire employees who did not meet his expectations.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/innovation.png" alt="" />
+          <h4>Innovation</h4>
+          <p>
+            Apple’s organizational culture supports rapid innovation. The
+            technology business is frequently appraised as one of the most
+            innovative companies in the world. Based on this cultural trait.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/sec.jpg" alt="" />
+          <h4>Secrecy</h4>
+          <p>
+            Steve Jobs developed Apple to have an organizational culture of
+            secrecy. This cultural characteristic continues to define the
+            MacBook maker’s human resource development.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/moderet.png" alt="" />
+          <h4>Moderate Combativeness</h4>
+          <p>
+            Apple’s organizational culture has moderate combativeness. This
+            feature is linked to Steve Jobs and his combative approachApple’s
+            corporate culture exhibits a moderate degree of combativeness.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="images/tEAM.jpg" alt="" />
+          <h4>Teamwork</h4>
+          <p>
+            Apple believes in the power of team collaboration, and how it
+            enhances productivity. The structure of activities at Apple is
+            organized like a start-up business with zero committees.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- end features-->
+
+    <script src="js/master.js"></script>
+  </body>
+</html>
